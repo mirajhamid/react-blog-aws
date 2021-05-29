@@ -1,6 +1,14 @@
-# Getting Started with Create React App
+# React Blog AWS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a basic blog site which use basic react features and AWS
+to up and running.
+
+### Phase01
+
+- Basic page components using react fragments.
+- Routing among pages
+- > npm install react-router@next react-router-dom@next
+- > npm install history
 
 ## Available Scripts
 
