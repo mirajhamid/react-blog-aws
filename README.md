@@ -7,6 +7,7 @@ to up and running.
 
 - Basic page components using react fragments.
 - Routing among pages
+- Use common component like ArticleList in different pages
 - > npm install react-router@next react-router-dom@next
 - > npm install history
 
