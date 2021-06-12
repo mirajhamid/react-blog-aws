@@ -10,7 +10,8 @@ const ArticleListPage = () => {
     return (
       <li>
         <Link className="article-list-item" to={`./article/${article.name}`}>
-          {article.name}
+          <h3>{article.title}</h3>
+          <p>{article.content[0].substring(0, 150).trim()}...</p>
         </Link>
       </li>
     );
