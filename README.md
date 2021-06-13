@@ -11,6 +11,19 @@ to up and running.
 - > npm install react-router@next react-router-dom@next
 - > npm install history
 
+### Phase02
+
+- Node.js backEnd using express server (react-blog-aws-server)
+- Intstall whatwg to support fetch by IE and update index.js since fetch won't work in IE
+- > npm install --save whatwg-fetch
+- use react hooks to maintain states
+- update package.json with proxy to overcome CORS errors
+- Faetch and update data from server and maintain states
+- Build - run below command in react-blog-aws folder and copy the created build folder and move it into
+  react-blog-aws-server src folder
+  > npm run build
+- Config the server.js for static items
+
 ## Available Scripts
 
 In the project directory, you can run:
