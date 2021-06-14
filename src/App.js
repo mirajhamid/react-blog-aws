@@ -22,10 +22,7 @@ class App extends Component {
               <Route path="/" element={<HomePage />} exact />
               <Route path="/about" element={<AboutPage />} />
               <Route path="/article-list" element={<ArticleListPage />} />
-              <Route
-                path="/article-list/article/:path"
-                element={<ArticlePage />}
-              />
+              <Route path="/article/:path" element={<ArticlePage />} />
               <Route path="/*" element={<PageNotFound404 />} />
             </Routes>
           </div>
