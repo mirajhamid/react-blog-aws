@@ -50,6 +50,13 @@ const ArticlePage = () => {
       );
       console.log("result", result);
       const body = await result.json();
+
+      //else you clould write
+      // const body =  fetch(
+      //   `/api/articles-mongodb-onfly/${path}`,
+      //   requestOptions
+      // ).then(response => {response.json()});
+
       console.log(body);
       setArticleInfo(body);
     };
